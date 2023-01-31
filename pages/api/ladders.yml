@@ -56,7 +56,7 @@ proxy-groups:
 proxy-providers:
   dd.ewmld2.one:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&url=http%3A%2F%2Fdd.cxld.sbs%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De075a78fcce61d85fdd46ae7fe2a3aa7"
+    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2F118.louf.sbs%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De075a78fcce61d85fdd46ae7fe2a3aa7"
     path: ./dd.ewmld2.one.yaml
     filter: ()[^(x10|x20|x15|中转)]
     interval: 3600
