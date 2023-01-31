@@ -58,8 +58,8 @@ proxy-providers:
     type: http
     url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2F118.louf.sbs%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De075a78fcce61d85fdd46ae7fe2a3aa7"
     path: ./dd.ewmld2.one.yaml
-    filter: ()[^(x10|x20|x15|中转)]
-    interval: 3600
+    filter: ()[^(x20|x15)]
+    interval: 86400
     health-check:
       enable: true
       interval: 600
@@ -69,7 +69,7 @@ proxy-providers:
     type: http
     url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fmojie.art%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db5e674cba5ebc20ab24e735ca40671d8"
     path: ./mojie.art.yaml
-    interval: 3600
+    interval: 86400
     health-check:
       enable: true
       interval: 600
@@ -78,7 +78,7 @@ proxy-providers:
   www.efcloud.cc:
     type: http
     url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fwww.efcloud.cc%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D13b9e98fb1954a4673e899e7ba4f964c"
-    interval: 3600
+    interval: 86400
     path: ./www.efcloud.cc.yaml
     health-check:
       enable: true
