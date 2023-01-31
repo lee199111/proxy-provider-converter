@@ -23,7 +23,7 @@ hosts: null
 cfw-latency-timeout: 5000
 proxy-groups:
   # url-test select which proxy will be used by benchmarking speed to a URL.
-  - name: "自动选择"
+  - name: "🍎自动选择"
     type: select
     use:
       - dd.ewmld2.one
@@ -193,11 +193,11 @@ rules:
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,google,DIRECT
-  - RULE-SET,proxy,PROXY
+  - RULE-SET,proxy,🍎自动选择
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,PROXY
+  - RULE-SET,telegramcidr,🍎自动选择
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,PROXY
+  - MATCH,🍎自动选择
