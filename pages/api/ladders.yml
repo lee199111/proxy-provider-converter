@@ -32,10 +32,10 @@ proxy-groups:
     proxies:
       - 八方云
       - 魔戒
-      - ufcloud
+      - efcloud
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-  - name: "ufcloud"
+  - name: "efcloud"
     type: url-test
     use:
       - www.efcloud.cc
