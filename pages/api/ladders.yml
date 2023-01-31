@@ -26,13 +26,13 @@ proxy-groups:
   - name: "🍎自动选择"
     type: select
     use:
+      - www.efcloud.cc
       - dd.ewmld2.one
       - mojie.art
-      - www.efcloud.cc
     proxies:
+      - efcloud
       - 八方云
       - 魔戒
-      - efcloud
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: "efcloud"
