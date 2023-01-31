@@ -56,7 +56,7 @@ proxy-groups:
 proxy-providers:
   dd.ewmld2.one:
     type: http
-    url: "https://ladders.ameameame.top/api/convert?url=http%3A%2F%2Fdd.ewmld2.one%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De075a78fcce61d85fdd46ae7fe2a3aa7&target=clash"
+    url: "https://sub.xeton.dev/sub?target=clash&url=http%3A%2F%2Fdd.cxld.sbs%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3De075a78fcce61d85fdd46ae7fe2a3aa7"
     path: ./dd.ewmld2.one.yaml
     filter: ()[^(x10|x20|x15|中转)]
     interval: 3600
@@ -67,7 +67,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   mojie.art:
     type: http
-    url: "https://ladders.ameameame.top/api/convert?url=https%3A%2F%2Fmojie.art%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db5e674cba5ebc20ab24e735ca40671d8&target=clash"
+    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fmojie.art%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db5e674cba5ebc20ab24e735ca40671d8"
     path: ./mojie.art.yaml
     interval: 3600
     health-check:
@@ -77,7 +77,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   www.efcloud.cc:
     type: http
-    url: https://ladders.ameameame.top/api/convert?url=https%3A%2F%2Fwww.efcloud.cc%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D13b9e98fb1954a4673e899e7ba4f964c&target=clash
+    url: "https://sub.xeton.dev/sub?target=clash&url=https%3A%2F%2Fwww.efcloud.cc%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D13b9e98fb1954a4673e899e7ba4f964c"
     interval: 3600
     path: ./www.efcloud.cc.yaml
     health-check:
